@@ -14,7 +14,6 @@ fireworks.client.api_key = os.getenv("FIREWORKS_API_KEY")
 
 
 # load dataset from data/ folder to pandas dataframe
-# dataset contains column names
 
 ml_papers = pd.read_csv("ml-potw-10232023.csv", header=0)
 
