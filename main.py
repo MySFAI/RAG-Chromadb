@@ -23,7 +23,7 @@ ml_papers = ml_papers.dropna(subset=["Title", "Description"])
 ml_papers.head()
 ml_papers_dict = ml_papers.to_dict(orient="records")
 
-def get_completion(prompt, model=None, max_tokens=50):
+def get_completion(prompt, model=None, max_tokens=100):
 
 	fw_model_dir = "accounts/fireworks/models/"
 
