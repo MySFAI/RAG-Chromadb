@@ -1,11 +1,8 @@
 import fireworks.client
 import os
 import dotenv
-import chromadb
-import json
 from tqdm.auto import tqdm
 import pandas as pd
-import random
 
 # you can set envs using Colab secrets
 dotenv.load_dotenv()
